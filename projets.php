@@ -12,16 +12,13 @@
 
         <div class="intro">
             <h1>Mes Projets</h1>
-            <h6>Que j'ai fait pendant le BTS</h6>
         </div>
 
         <div class="marge">
             <div id="rouge"><p>Projets Scolaires</p></div>
             <button class="bouton2" onclick="Projet('scrabble')">Scrabble</button>
             <button class="bouton2" onclick="Projet('multiburo')">Multiburo</button>
-            <button class="bouton2" onclick="Projet('cooknco')">Cooknco</button>
-            <button class="bouton2" onclick="Projet('triathlon')">Triathlon</button>
-            <button class="bouton2" onclick="Projet('boulanger')">Boulanger</button>
+            <button class="bouton2" onclick="Projet('boulanger')">Gourmetise</button>
         </div>
 
         <div id="project-content" class="marge">

@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Portfolio - Rafael Faquir De Moura</title>
+        <meta charset="UTF-8">
+        <link href="./css/model.css" rel="stylesheet" type="text/css" media="screen">
+        <script src="./js/header.js"></script>
+        <?php include_once "./php/function.inc.php"; ?>
+    </head>
+    <body>
+        <?php headery('presentation'); ?>
+
+        <div class="intro">
+            <h1>Presentation</h1>
+        </div>
+
+        <div class="marge">
+            <div id="rouge"><p>Langages</p></div>
+            <div><h2>Developpement</h2></div>
+            <div class="pre">
+                <div id="one"> 
+                    <p>HTML/CSS/JS</p>
+                    <img id="small" src="./css/img/html.png"> </img>
+                </div>
+                <div id="two">
+                    <p>PHP</p>
+                    <img id="small" src="./css/img/PHP.svg"> </img>
+                </div>
+                <div id="three">
+                    <p>SQL</p>
+                    <img id="small" src="./css/img/sql.jpg"> </img>
+                </div>
+                <div id="four">
+                    <p>C#</p>
+                    <img id="small" src="./css/img/c.avif"> </img>
+                </div>
+            </div>
+            <div class="pre">
+                <div id="one"> 
+                    <p>Python</p>
+                    <img id="small" src="./css/img/python.png"> </img>
+                </div>
+                <div id="two">
+                    <p>Kotlin</p>
+                    <img id="small" src="./css/img/kotlin.png"> </img>
+                </div>
+                <div id="three">
+                    <p>Git</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+                <div id="four">
+                    <p>API</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+            </div>
+            <div><h2>Frameworks</h2></div>
+            <div class="pre2">
+                <div id="one"> 
+                    <p>Vue.Js</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+                <div id="two">
+                    <p>Symfony</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+            </div>
+        </div>
+        <div id="rouge"><p>Environnements</p></div>
+            <div class="pre">
+                <div id="one"> 
+                    <p>VS Code</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+                <div id="two">
+                    <p>Visual Studio</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+                <div id="three">
+                    <p>HeidiSQL</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+                <div id="four">
+                    <p>Android Studio</p>
+                    <img id="small" src="./css/img/"> </img>
+                </div>
+            </div>
+            <div class="pre2">
+                <div id="one"> 
+                    <p>phpmyadmin</p>
+                    <img id="small" src="./css/img/html.png"> </img>
+                </div>
+                <div id="two">
+                    <p>Github</p>
+                <img id="small" src="./css/img/css.png"> </img>
+            </div>
+            </div>
+        </div>
+        <div id="rouge"><p>Veille Technologique</p></div>
+        <div id="rouge"><p>Certifications</p></div>
+
+        <?php footer(); ?>
+    </body>
+</html>

@@ -16,7 +16,7 @@
     </div>
 
     <div class="marge">
-        <div id="rouge"><p>Présentation</p></div>
+        <div id="rouge"><p>Introduction</p></div>
         <div><p>Je suis un étudiant de BTS SIO SLAM, passionné par le développement web, logiciel et les bases de données.</p></div>
     </div>
 

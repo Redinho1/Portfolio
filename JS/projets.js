@@ -9,20 +9,10 @@ const projets = {
         techs: ["HTML", "CSS", "JS", "PHP", "SQL/MySQL"],
         description: "Une application web simulant la gestion d’espaces de coworking avec authentification, gestion de réservations et base de données MySQL."
     },
-    cooknco: {
-        title: "Cooknco",
-        techs: ["HTML", "CSS", "JS", "PHP", "SQL/MySQL"],
-        description: "Un site collaboratif de recettes où les utilisateurs peuvent partager, noter et commenter des plats."
-    },
-    triathlon: {
-        title: "Triathlon",
-        techs: ["Android", "SQL/MySQL"],
-        description: "Une application mobile pour voir et mettre des données des compétiteurs."
-    },
     boulanger: {
-        title: "Boulanger",
-        techs: ["HTML", "CSS", "JS", "PHP", "SQL/MySQL"],
-        description: "Une application web simulant une boulangerie"
+        title: "Gourmetise",
+        techs: ["Frameworks : Vue.Js", "SQL/MySQL", "Android Studio", "API : Symfony"],
+        description: "Une application web simulant l'inscription de participer, de voir les résultats après l'évènement. \nUne application mobile simulant pour juger les boulangeries inscrite"
     }
 };
 

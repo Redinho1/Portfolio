@@ -7,7 +7,11 @@ function headery($currentPage = "")
             <p>PORTFOLIO - RAFAEL FAQUIR DE MOURA</p>
 
             <a href="index.php" class="bouton" <?= $currentPage === 'index' ? 'style="pointer-events:none; background-color:#612e2e; opacity:0.6;"' : '' ?>>
-                Introduction
+                Accueil
+            </a>
+
+            <a href="presentation.php" class="bouton" <?= $currentPage === 'presentation' ? 'style="pointer-events:none; background-color:#612e2e; opacity:0.6;"' : '' ?>>
+                Présentation
             </a>
 
             <a href="stages.php" class="bouton" <?= $currentPage === 'stages' ? 'style="pointer-events:none; background-color:#612e2e; opacity:0.6;"' : '' ?>>
@@ -15,7 +19,7 @@ function headery($currentPage = "")
             </a>
 
             <a href="projets.php" class="bouton" <?= $currentPage === 'projets' ? 'style="pointer-events:none; background-color:#612e2e; opacity:0.6;"' : '' ?>>
-                Projets Scolaires
+                Projets
             </a>
         </div>
     </header>
@@ -38,10 +42,10 @@ function footer()
             <p>rafaelfaquirmoura@gmail.com</p>
 
             <div class="footer-icons">
-                <a href="https://www.linkedin.com/in/rafael-faquir-de-moura-1a8551301/" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/rafael-faquir-de-moura-1a8551301/" target="_blank" aria-label="LinkedIn">
                     <img src="css/img/1linkedin.png" alt="LinkedIn" />
                 </a>
-                <a href="https://github.com/Redinho1" aria-label="GitHub">
+                <a href="https://github.com/Redinho1" target="_blank" aria-label="GitHub">
                     <img src="css/img/2github.png" alt="GitHub" />
                 </a>
             </div>
