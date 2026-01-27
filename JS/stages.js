@@ -3,12 +3,13 @@ const stages = {
         title: "Access Creed",
         html: `
             <div class="stage" id="access-creed">
-                <h2>C’est quoi Access Creed ?</h2>
+                <div class="container-img">
+                    <img src="css/img/accesscreed.png" alt="Access Creed" class="img-centre">
+                </div>
                 <ul>
                     <li>Une entreprise Freelancer</li>
                     <li>L’entreprise aide à réparer les soucis des ordinateurs de ses clients (dans d’autres entreprises) via du code PowerShell</li>
-                    <li>Access Creed fait aussi des délivraisons d’outils (ordinateurs, composants, écrans, etc.)</li>
-                    <li>Et bientôt, il aura un site pour guider ses clients qui auront besoin de lui</li>
+                    <li>Access Creed fait aussi des délivraisons d’outils (ordinateurs, composants, écrans, etc.).</li>
                 </ul> <br>
                 <h2>J'ai fait quoi dans Access Creed?</h2>
                 <p>Du 19 Mai 2025 au 27 Juin 2025, j'ai eu deux projets :</p>
@@ -22,13 +23,17 @@ const stages = {
         `
     },
     stage2: {
-        title: "[STAGE #2]",
+        title: "Celeonet",
         html: `
-            <div class="stage" id="stage2">
-                <h2>Stage #2</h2>
+            <div class="stage" id="celeonet">
+                <div class="container-img">
+                    <img src="css/img/celeonet.png" alt="Celeonet" class="img-centre">
+                </div>
                 <ul>
-                    <li>Stage prévu pour 5 Janvier 2026 - 13 Février 2026</li>
-                    <li>En cours de planification – probablement dans le domaine du développement web.</li>
+                    <li>Une entreprise expert en hébergement créée en 2003.</li>
+                    <li>L'entreprise constitue d'une équipe d’experts d’internet et des réseaux.</li>
+                    <li>C'est une entreprise qui se répartie sur la région Parisienne et Lyonnaise</li>
+                    <li>Pour en savoir plus <a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici</a></li>
                 </ul>
             </div>
         `
@@ -46,4 +51,12 @@ function Stage(name) {
     }
 
     container.innerHTML = stage.html;
+    window.location.hash = name;
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash.replace('#', '');
+    if (hash && stages[hash]) {
+        Stage(hash); 
+    }
+});

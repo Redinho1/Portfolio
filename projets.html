@@ -3,12 +3,11 @@
         <title>Portfolio - Rafael Faquir De Moura</title>
         <meta charset="UTF-8">
         <link href="./css/model.css" rel="stylesheet" type="text/css" media="screen">
-        <script src="./js/header.js"></script>
         <script src="./js/projets.js" defer></script>
-        <?php include_once "./php/function.inc.php"; ?>
+        <script src="./js/componants.js"></script>
     </head>
     <body>
-        <?php headery('projets'); ?>
+        <div id="headery"></div>
 
         <div class="intro">
             <h1>Mes Projets</h1>
@@ -24,6 +23,11 @@
         <div id="project-content" class="marge">
             <p>Cliquez sur un projet pour afficher sa description.</p>
         </div>
-        <?php footer(); ?>
+
+        <div id="footery"></div>
+        <script>
+            createHeader(); 
+            createFooter();
+        </script>
     </body>
 </html>

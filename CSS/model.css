@@ -210,15 +210,15 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-#stage2 {
-    background-image: url('img/codes.png');
+#celeonet {
+    background-image: url('img/celeonet_bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 5rem 2rem;
     border-radius: 20px;
-    color: white;
+    color: black;
     max-width: 1000px;
     margin: 3rem auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -263,4 +263,17 @@ footer {
   grid-row: 1/1;
   justify-self: center;
   place-items: center;
+}
+
+/* Conteneur pour centrer l'image */
+.container-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-bottom: 20px;     
+}
+
+.img-centre {
+    max-width: 400px;        
+    height: auto;
 }

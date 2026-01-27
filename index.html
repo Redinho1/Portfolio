@@ -3,11 +3,10 @@
     <title>Portfolio - Rafael Faquir De Moura</title>
     <meta charset="UTF-8">
     <link href="./css/model.css" rel="stylesheet" type="text/css" media="screen">
-    <script src="./js/header.js"></script>
-    <?php include_once "./php/function.inc.php"; ?>
+    <script src="./js/componants.js"></script>
 </head>
 <body>
-    <?php headery('index'); ?>
+    <div id="headery"></div>
 
     <div class="intro">
         <h3>Développeur / Programmeur</h3>
@@ -43,21 +42,25 @@
     <div class="marge">
         <div id="rouge"><p>Stage d'Entreprise</p></div>
         <div><p>Access Creed (19 Mai 2025 - 27 Juin 2025)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='stages.php#stage1'">En savoir plus sur Access Creed</button></div>
-        <div><p>[STAGE #2] (5 Janvier 2026 - 13 Février 2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='stages.php#stage2'">En savoir plus sur [STAGE #2]</button></div>
+        <div><button class="bouton2" onclick="window.location.href='stages.html#stage1'">En savoir plus sur Access Creed</button></div>
+        <div><p>Celeonet (5 Janvier 2026 - 13 Février 2026)</p></div>
+        <div><button class="bouton2" onclick="window.location.href='stages.html#stage2'">En savoir plus sur Celeonet</button></div>
     </div>
 
     <div class="marge">
         <div id="rouge"><p>Projets Scolaires</p></div>
         <div><p>Scrabble 2 Joueurs (BTS SIO 2024-2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='projets.php#scrabble'">En savoir plus sur Scrabble</button></div>
+        <div><button class="bouton2" onclick="window.location.href='projets.html#scrabble'">En savoir plus sur Scrabble</button></div>
         <div><p>Multiburo (BTS SIO 2024-2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='projets.php#multiburo'">En savoir plus sur Multiburo</button></div>
+        <div><button class="bouton2" onclick="window.location.href='projets.html#multiburo'">En savoir plus sur Multiburo</button></div>
         <div><p>Cooknco (BTS SIO 2025-2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='projets.php#cooknco'">En savoir plus sur Cooknco</button></div>
+        <div><button class="bouton2" onclick="window.location.href='projets.html#cooknco'">En savoir plus sur Cooknco</button></div>
     </div>
 
-    <?php footer(); ?>
+    <div id="footery"></div>
+    <script>
+        createHeader(); 
+        createFooter();
+    </script>
 </body>
 </html>
